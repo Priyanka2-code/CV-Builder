@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5c46030b6.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Maven+Pro:wght@900&family=Pacifico&family=Qahiri&display=swap');
+    </style>
+    <title>Resume Builder</title>
+</head>
+<body>
+   <!-- <header id="navarea">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">-->
+                    <nav class=" navbar navbar-expand-lg navbar-dark bg-unique">
+                        <a class="navbar-brand" href="#">Resume Builder</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-3" aria-controls="navbarSupportedContent-3" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent-3">
+                            <ul class="navbar-nav ml-auto nav-flex-icons">
+                                <li class="nav-item">
+                                    <a class="nav-link waves-effect waves-light" href="index.html"><i class="fa fa-home"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link waves-effect waves-light" href="https://www.linkedin.com/in/priyanka-kumari-616a76214"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> 
+                                        </a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-unique" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#contactus">Contact us</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                <!--</div>
+            </div>
+        </div>
+    </header>-->
+    <!--<section class="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">-->
+                    <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000" id="carousel-1">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="home2.jpg" alt="Slide Image">
+                                <div class="carousel-caption">
+                                    <h4 class="animated slideInDown">Let's Build Your Own Resume!</h4>
+                                    <p class="animated slideInLeft">Your resume, made amazing..</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="1.webp" alt="Slide Image">
+                                <div class="carousel-caption">
+                                    <h4 class="animated fadeInDown">Let's Build Your Own Resume!</h4>
+                                    <p class="animated slideInUp">Your resume, made professional..</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="home.jpg" alt="Slide Image">
+                                <div class="carousel-caption">
+                                    <h4 class="animated slideInDown">Let's Build Your Own Resume!</h4>
+                                    <p class="animated slideInLeft">Your resume, made attractive..</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"><i class="la la-cutlery"></i></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1"
+                                role="button" data-slide="next"><span class="carousel-control-next-icon"><i class="la la-cutlery"></i></span><span class="sr-only">Next</span></a></div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-1" data-slide-to="1"></li>
+                                <li data-target="#carousel-1" data-slide-to="2"></li>
+                            </ol>
+                        </div>
+                        <script id="bs-live-reload" data-sseport="4859" data-lastchange="1530918619334" src="/js/livereload.js"></script>
+                    </div>
+                </div>
+           <!-- </div>
+        </div>
+    </section>-->                 
+   <section id="cvarea">
+        <div class="container" id="cv-form">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Personal Information</h3>
+                    <div class="form-group">
+                        <label for="nameField">Your name</label>
+                        <input type="text" id="nameField" placeholder="Enter your name" class="form-control"/>
+                    </div>
+                     
+                    <div class="form-group">
+                        <label for="">Select Photo</label>
+                        <input id="imgField" type="file" class="form-group">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactField">Your contact</label>
+                        <input type="number" id="contactField" placeholder="Enter your contact number" class="form-control"/>
+                    </div>
+    
+    
+                    <p class="text-secondary my-3">Important Links</p>
+    
+                    <div class="form-group">
+                        <label for="ghField">Github</label>
+                        <input type="text" id="ghField" placeholder="Enter your github " class="form-control"/>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="LIField">LinkedIn</label>
+                        <input type="text" id="LIField" placeholder="Enter your linkedIn " class="form-control"/>
+                    </div>
+                        
+    
+                    <div class="form-group">
+                        <label for="emailField">Email</label>
+                        <input type="text" id="emailField" placeholder="Enter your email" class="form-control"/>
+                    </div>
+    
+                    <div class="form-group" id="skill">
+                        <label for="">Skills</label>
+                        <textarea id="skillField" placeholder="Enter your Skills" class="form-control SField" rows="2"></textarea> 
+    
+                        <div class="container text-center" id="aqAddButton">
+                            <button onclick="addnewSField()" class="btn bg-unique btn-sm">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Professional Information</h3>
+                    <div class="form-group">
+                        <label for="">Objective</label>
+                        <textarea id="obField" placeholder="Enter here" class="form-control" rows="3"></textarea> 
+                    </div>
+                    <div class="form-group" id="we">
+                        <label for="">Work Experience</label>
+                        <textarea placeholder="Enter here" class="form-control weField"></textarea> 
+                                    
+                        <div class="container text-center " id="weAddButton">
+                            <button onclick="addnewWEField()" class="btn btn-sm bg-unique">Add</button>
+                        </div>
+                    </div>
+            
+                    <div class="form-group" id="aq">
+                        <label for="">Academic Qualification</label>
+                        <textarea placeholder="Enter here" class="form-control aqField"></textarea> 
+                                    
+                        <div class="container text-center" id="aqAddButton">
+                            <button onclick="addnewAQField()" class="btn bg-unique btn-sm">Add</button>
+                        </div>
+                    </div>
+            
+                    <div class="form-group" id="pr">
+                        <label for="">Projects</label>
+                        <textarea placeholder="Enter your Project" class="form-control prField"></textarea> 
+                                    
+                        <div class="container text-center" id="prAddButton">
+                            <button onclick="addnewPRField()" class="btn bg-unique btn-sm">Add</button>
+                        </div>
+                    </div>
+            
+                    <div class="form-group" id="achiev">
+                        <label for="">Achievements</label>
+                        <textarea placeholder="Enter your Achievement" class="form-control AField" rows="2"></textarea>
+                                    
+                        <div class="container text-center" id="achievAddButton">
+                            <button onclick="addnewAField()" class="btn bg-unique btn-sm">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="container text-center" id="generatearea">
+            <button onclick="generateCV()"class="btn bg-unique btn-lg ">Build CV</button>
+        </div> 
+    
+    <!--Bottom Footer-->
+
+    <div class="bottom section-padding bg-dark" id="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="contact" id="contactus">
+                        <h5>Contact with us:</h5>
+                        <p><i class="fa fa-phone"></i> &nbsp; Phone No.: +917488992486</p>
+                        <p ><i class="fa fa-envelope"></i> &nbsp;Email: pirikumari12342gmail.com</p>
+                    </div>
+                    <div class="copyright">
+                        <p>© <span>2022</span> <a href="#" class="transition">Priyal7660</a> All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- cv template -->
+    <div class="container mt-4" id="cv-template">
+        <div class="row mt-4" >
+            <div class="col-md-4  py-2 bg-dark text-center" id="personal">
+                <!-- first col -->
+
+                <img src="profile.jpg" alt="" class="img-fluid myimg " id="imgTemplate">
+
+                <hr />
+                <b class="float-left">Name: &nbsp; </b><p class="text-left" id="nameT">piri kumari rajvanshi</p>
+                <b class="float-left">Contact: &nbsp;</b><p class="text-left" id="contactT">+917488992486</p>
+                <p class="text-left"><b>Github: &nbsp;</b><a id="ghT" href="#1">https://github.com/Priyanka2-code</a></p>
+                <p class="text-left"><b>LinkedIn: &nbsp;</b><a id="LIT" href="#2">https://www.linkedin.com/in/priyanka-kumari-616a76214/</a></p>
+                <p class="text-left"><b>Gmail: &nbsp;</b><a id="emailT" href="#">pirikumari1234@gmail.com</a></p>
+
+                <hr />
+
+
+                <!--Skills-->
+                <p class="text-left"><b>Skills:</b></p>
+                   
+                <ul id="skillT" class="text-left">
+                    <li>Lorem, ipsum dolor sit </li>
+                    <li>Lorem, ipsum dolor sit </li>
+                    <li>Lorem, ipsum dolor sit </li>
+                </ul>
+            </div>
+
+
+            <div class="col md-8 py-2">
+                <!-- second col -->
+                
+                <!-- objective card -->
+
+                <div class="card">
+                    <div class="card-header ">
+                        <h5><b>Objective</b></h5>
+                    </div>
+                    <div class="card-body">
+                        <p id="obT">
+                            andae blanditiis qui quisquam dicta perferendis laborum dolorem sint nisi? Quas placeat necessitatibus ducimus, dolore asperiores magnam dolorum sequi laudantium eum quos eveniet voluptas maiores maxime. Pariatur animi ducimus rem!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- work experience-->
+
+                <div class="card mt-3" >
+                    <div class="card-header">
+                        <h5><b>work experience</b></h5>
+                    </div>
+                    <div class="card-body">
+                        <ul id="weT">
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+                <!-- Academic Qualification-->
+
+                <div class="card mt-3" >
+                    <div class="card-header">
+                        <h5><b>Academic Qualification</b></h5>
+                    </div>
+                    <div class="card-body">
+                        <ul id="aqT">
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+                
+
+                <!--projects-->
+                <div class="card mt-3" >
+                    <div class="card-header">
+                        <h5><b>Projects</b></h5>
+                    </div>
+                    <div class="card-body">
+                        <ul id="projectT">
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+                <!--Achievement-->
+
+                <div class="card mt-3" >
+                    <div class="card-header">
+                        <h5><b>Achievements</b></h5>
+                    </div>
+                    <div class="card-body">
+                        <ul id="achievT">
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non?</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+                <div class="container mt-3 text-center">
+                    <button onclick="printCV()" class="btn bg-unique">
+                        print CV
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

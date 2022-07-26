@@ -1,0 +1,248 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+.darken-grey-text {
+    color: #2E2E2E;
+}
+
+.navbar .dropdown-menu a:hover {
+    color: #616161 !important;
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+.navbar-brand{
+   
+   font-family: 'Pacifico', cursive;
+   
+}
+.carousel-caption h4{
+    text-align:center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+.container h3{
+    padding-top:30px;
+    font-family: 'Lobster', cursive;
+}
+.SField{
+    width: 98%;
+    padding-left: 10px;
+    border: solid 1px black;
+}
+#imgField{
+  width: 98%;
+}
+.form-group input{
+    border: solid 1px black;
+    width: 96%;
+    padding-left: 10px;
+}
+.form-group textarea{
+    border: solid 1px black;
+    padding-left: 10px;
+}
+/*#cv-form{
+   display: none;
+} */
+
+#cv-template{
+    display: none;
+}
+#personal{
+  color: #fff;
+}
+.myimg{
+    height:150px;
+    width:150px;
+    border: solid 1px black;
+    border-radius: 50%;
+}
+.background{
+    background-color: aquamarine;
+}
+.carousel-fade .carousel-item {
+    height:100%;
+  }
+  
+  .carousel-fade .carousel-item img {
+    height:100vh;
+    width:100%;
+    max-width:100%;
+    background-size:cover;
+    background-origin:content-box;
+    background-clip:content-box;
+    background-position:center;
+    color:rgba(0,0,0,0.56);
+    filter:brightness(30%);
+    right:0;
+    left:0;
+    resize:both;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background:none;
+    border:2px solid #fff;
+    height:60px;
+    width:60px;
+    line-height:55px;
+    opacity:9 !important;
+    filter:brightness(100%) !important;
+    font-size:40px;
+    border-radius:100%;
+  }
+  
+  .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background:#fff;
+    opacity:9;
+    color:#000;
+  }
+  
+  .la {
+    opacity:99;
+    z-index:1;
+    position:relative;
+  }
+  
+  .carousel-indicators li {
+    background:#000;
+    color:#000;
+    height:30px;
+    width:30px;
+    margin:5px !important;
+    border-radius:100%;
+  }
+  
+  .carousel-caption {
+    top:220px;
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-caption {
+      top:220px !important;
+    }
+  }
+  
+  .carousel-caption h3 {
+    font-size:70px;
+    text-align:center;
+    font-weight:bold;
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-caption h3 {
+      font-size:70px !important;
+      text-align:center;
+      font-weight:bold;
+    }
+  }
+  
+  .carousel-caption p {
+    font-size:30px;
+    margin-top:20px;
+    text-align:center;
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-caption p {
+      font-size:30px !important;
+      margin-top:20px;
+      text-align:center;
+    }
+  }
+  
+  .carousel-caption .btn {
+    border:2px solid #fff;
+    border-radius:0;
+  }
+  
+  @media (min-width: 300px) {
+    .img-fluid.w-100.d-block {
+      height:auto;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .img-fluid.w-100.d-block {
+      height:auto;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .img-fluid.w-100.d-block {
+      height:auto;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .img-fluid.w-100.d-block {
+      height:100vh;
+    }
+  }
+  
+  @media (min-width: 300px) {
+    .carousel-caption {
+      top:0;
+      font-size:20px;
+    }
+  }
+  
+  @media (min-width: 300px) {
+    .carousel-caption h3 {
+      font-size:20px;
+    }
+  }
+  
+  .carousel-caption p {
+    font-size:15px;
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-caption {
+      top:100px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-caption h3 {
+      font-size:40px;
+    }
+  }
+  #carousel-1{
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  }
+a:hover{
+    text-decoration:none;
+}
+.section-padding {
+	padding: 60px 0;
+}
+.bottom {
+   /* background-color: #0a1c2e;*/
+   margin-top: 20px;
+} 
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: #f2ff49;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.bottom h5 {
+  color: #fff;
+  font-weight: 900;
+}
+.copyright p span {
+    color: #d1caca;
+}
+
+
